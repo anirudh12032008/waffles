@@ -25,4 +25,23 @@ const facts = [
         alert(`👋 ${greet} Welcome to WaffleZone!`);
   }
 
+  function mood(){
+    const m = prompt("How are you feeling today? (happy/sad/excited/curious)").toLowerCase();
+    if (m === 'happy') {
+      alert("Sprinkles are for you!!!")
+    }
+    else if (m === 'sad') {
+      alert("Whipped cream can always fix you?")
+    }
+    else if (m === 'excited') {
+      alert("Choco chips will make it better!")
+    }
+    else if (m === 'curious') {
+      alert("Bananas are a great topping to explore, lol")
+    }
+    else {
+      alert("How about trying something new?")
+    }
+  }
+
 greet();
