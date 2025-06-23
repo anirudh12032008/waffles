@@ -34,7 +34,7 @@ const facts = [
       alert("Whipped cream can always fix you?")
     }
     else if (m === 'excited') {
-      alert("Choco chips will make it better!")
+      alert("Choco chips will make it better")
     }
     else if (m === 'curious') {
       alert("Bananas are a great topping to explore, lol")
